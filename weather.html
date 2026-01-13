@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express HTML Server</title>
+</head>
+<body>
+<script>
+    var weather = fetch("https://raw.githubusercontent.com/AlbinTouma/NWS-alerts-daily-tracker/refs/heads/master/alerts.json")
+        .then((response) => JSON.stringify(response))
+
+    console.log(weather)
+
+
+    console.log("Hi");
+</script>
+</body>
+</html>
